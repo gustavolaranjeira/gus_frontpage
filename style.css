@@ -173,33 +173,47 @@ a, a:link, a:visited {
   width: 100%;
   height: 30vh;
   display: block;
+  padding-bottom: 10px;
 }
 .main1 .article1 {
   width: 96%;
   height: 100%;
   display: block;
-  margin: 0px auto;
+  margin: 5px auto;
 }
 .article1 .header1{ 
   width: 100%;
   height: 30%;
   display: block;
   background-color: aqua;
+  margin: 5px auto;
+}
+.article1 .header1 p{ 
+  height: 100%;
+  display: table;
+  margin: 5px;
+}
+.article1 .header1 p span{ 
+  display: table-cell;
+  vertical-align: middle;
+  text-align: justify;
 }
 .article1 .section1{ 
   width: 100%;
   height: 40%;
   display: block;
   background-color: blue;
+  margin: 5px auto;
 }
 .article1 .section1 p{ 
   height: 100%;
   display: table;
+  margin: 5px;
 }
 .article1 .section1 p span{ 
-  height: 100%;
   display: table-cell;
   vertical-align: middle;
+  text-align: justify;
 }
 .article1 .footer1{ 
   width: 100%;
@@ -207,70 +221,105 @@ a, a:link, a:visited {
   display: block;
   background-color: yellowgreen;
 }
+.article1 .footer1 p{ 
+  height: 100%;
+  display: table;
+  margin: 5px;
+}
+.article1 .footer1 p span{ 
+  display: table-cell;
+  vertical-align: middle;
+  text-align: justify;
+}
 
 /* Article2 */
 .article2{
   width: 100%;
   height: 40vh;
   display: block;
-  overflow: hidden;
-  padding: 35px 0; /*36px-top&botton 0px-right&left*/
-  box-sizing: border-box;
-  float: right;
 }
 .article2 .article2_container {
-  width: 90%;
+  width: 96%;
   height: 100%;
   display: block;
-  margin: 0px auto; /*0px-top&bottom auto-left&right*/
+  margin: 5px auto; /*0px-top&bottom auto-left&right*/
 }
-.article2 .article2_header p{
-  display: block;
+.article2 .article2_header{
   width: 100%;
   height: 20%;
-  float: initial;
-  background-color: rgb(25, 253, 177);
-  text-align: center;
-  text-transform: uppercase;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-}
-.article .article2_middle{
   display: block;
-  height: 60%;
+  background-color: rgb(25, 253, 177);
+}
+.article2 .article2_header p{
+  height: 100%;
+  display: table;
+  margin: 5px;
+}
+.article2 .article2_header p span{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: justify;
+}
+.article2 .article2_middle{
+  width: 100%;
+  height: 50%;
+  display: block;
+  margin: 5px auto;
 }
 .article2 .article2_section{
-  display: block;
   width: 49%;
-  float: left;
   height: 100%;
+  display: block;
+  float: left;
   background-color: rgb(107, 138, 127);
   margin: 10px auto; /*0px-top&bottom auto-left&right*/
+}
+.article2 .article2_section p{
+  height: 100%;
+  display: table;
+  margin: 5px;
+}
+.article2 .article2_section p span{
+  display: table-cell;
+  vertical-align: middle;
   text-align: justify;
-  text-transform: uppercase;
 }
 .article2 .article2_aside{
-  display: block;
   width: 49%;
-  float: right;
   height: 100%;
+  display: block;
+  float: right;
   background-color: rgb(24, 66, 52);
   margin: 10px auto; /*0px-top&bottom auto-left&right*/
+}
+.article2 .article2_aside p{
+  height: 100%;
+  display: table;
+  margin: 5px;
+}
+.article2 .article2_aside p span{
+  display: table-cell;
+  vertical-align: middle;
   text-align: justify;
-  text-transform: uppercase;
 }
 .article2 .article2_footer{
   width: 100%;
-  height: auto;
-  clear: both;
+  height: 20%;
+  display: block;
+  clear: both; /*analisar*/
   background-color: rgb(19, 114, 82);
   text-align: center;
-  text-transform: uppercase;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
 }
-
-
+.article2 .article2_footer p{
+  height: 100%;
+  display: table;
+  margin: 5px;
+}
+.article2 .article2_footer p span{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: justify;
+}
 
 
 
