@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.bg_video {
+.video {
     position: fixed;
     min-width: 100%;
     min-height: 100%;
@@ -13,13 +13,13 @@
     position: absolute;
     text-align: center;
     size: 1rem;
-    top: 90%;
+    top: 72%;
     transform: translateY(-100%);
 }
 .foto {
     width: 200px;
     position: absolute;
-    top: 40%;
+    top: 20%;
     margin-left: 50%;
     transform: translateX(-50%);
     border-radius: 100%;
@@ -36,9 +36,4 @@
 .avancar:hover {
     color: white;
     background-color: transparent;
-}
-@media only screen and (max-width: 500px) {
-    .foto {
-        width: 50vw;
-    }
 }
